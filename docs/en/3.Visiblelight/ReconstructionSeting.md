@@ -1,0 +1,75 @@
+﻿---
+title: Reconstruction Settings
+sidebar_position: 3
+---
+
+## Reconstruction Settings
+
+![image-20260527143851466](/img/en-img/reconstruction.png)
+
+### Reconstruction quality
+
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 20%" />
+<col style="width: 25%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Quality</th>
+<th>Ultra High</th>
+<th>High</th>
+<th>Medium</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rendering</td>
+<td>Full-resolution rendering</td>
+<td><p>Resampled rendering at 2x interval from original images</p></td>
+<td><p>Resampled rendering at 4x interval from original images</p></td>
+</tr>
+<tr class="even">
+<td>Texture and structure quality</td>
+<td>Ultra High</td>
+<td>High</td>
+<td>Medium</td>
+</tr>
+</tbody>
+</table>
+
+
+### Output types
+
+Click the icon ![](/img/en-img/enable.png) to enable output for model, point cloud, or Gaussian splatter.
+
+**Textured Model:**
+
+By default, B3DM and OSGB formats are produced. Click ![](/img/en-img/check.png) to select additional formats.
+
+**Point cloud:**
+
+By default, PNTS and LAS formats are produced.
+
+**Gaussian splatting:**
+
+- By default, SOGTiles and PLY formats are produced. Click ![](/img/en-img/check.png) to choose output formats.
+
+- People Removal: Click the icon ![](/img/en-img/enable.png) to enable removal of people from Gaussian Splatting results.
+
+
+### Product CRS
+
+Choose the coordinate system and vertical datum for 3D outputs; you can search by keyword. If the 3D output uses a custom coordinate system, import a PRJ file.
+
+<div style="display:flex;">
+
+<img src="/img/en-img/coordinatasystem.png" style="width:50%;">
+
+<img src="/img/en-img/coordinatasystem2.png" style="width:50%;">
+
+</div>
+
+
