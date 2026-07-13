@@ -64,7 +64,7 @@ function makeLocaleTheme(pathPrefix: string, localeKey: string) {
     footer: {
       message: "MipMap Lite Documentation",
       copyright: `Copyright © ${new Date().getFullYear()} MipMap.`,
-    },
+    }
   };
 }
 
@@ -87,7 +87,6 @@ export default defineConfig({
   description: "MipMap Lite",
   lang: "en-US",
   base: isDev ? "/" : "/lite/",
-  
 
   markdown: {
     config(md) {
@@ -106,6 +105,9 @@ export default defineConfig({
   lastUpdated: true,
   outDir: "../build",
   locales,
+  sitemap: {
+    hostname: 'https://docs.mipmap3d.com/lite/'
+  }
  
 });
 
